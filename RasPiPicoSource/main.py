@@ -157,6 +157,7 @@ async def uart_rcv():
             byte_data = buf
             data_flg = False
         else:
+            await asyncio.sleep(0.001)
             continue        
                 
         if byte_data is not None:
