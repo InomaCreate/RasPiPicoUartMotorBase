@@ -112,3 +112,20 @@ UART1 TX:GPIO4(PIN6), UART1 RX:GPIO5(PIN7), GND(PIN8)から線を出します。
 以下スクリプトを実行すると、モーター回転数受信のサンプルプログラムが起動します。  
 ```python3 sample_rcv_rpm.py``` 
 
+## 3Dデータ
+3Dデータ(stlファイル）もGitHubにUPしました。必要に応じて3Dプリンターで印刷してご使用ください。  
+[https://github.com/InomaCreate/RasPiPicoUartMotorBase/tree/main/3D-data](https://github.com/InomaCreate/RasPiPicoUartMotorBase/blob/main/3D-data/RasPiPicoUartMotorBase_body-Body.stl)
+
+
+以下のように、Raspberry Pi Picoや電池ボックス、モーター、キャスターを取り付けれるようにしております。
+![github_image-06](https://github.com/user-attachments/assets/e641a84a-373e-4542-b344-a977cca06a89)
+キャスターは、ホームセンターで買った直径38mmのものです。  
+![github_image-07](https://github.com/user-attachments/assets/fa3f5e5d-8827-4ea0-8a7e-6b4a5467271e)
+
+モーターのマウントは、「DC 12v モーター エンコーダ付き ギアモーター マウントブラケット付き 65mm(130rpm)」に付属されていたマウントブランケットをそのまま使用しています。  
+![github_image-08](https://github.com/user-attachments/assets/a013b6a9-5359-4d2f-8b34-fa3b3e6589ed)
+
+
+
+
+
