@@ -31,7 +31,8 @@ RIGHT_ENC_B = 26
 
 # 変数の初期化
 prev_data=[0,0]
-delta=2*math.pi/(4*40*16) #360./(4*3*298)
+delta=2*math.pi/(4*11*50) #360./(4*3*298)
+#delta=2*math.pi/(4*40*16) #360./(4*3*298)
 # delta=360./(4*40*16) #360./(4*3*298)
 counter=[0,0]
 prev_counter=[0,0]
